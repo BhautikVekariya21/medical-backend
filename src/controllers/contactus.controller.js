@@ -35,7 +35,7 @@ export const sendMessage = async (req, res, next) => {
     const mailOptions = {
       from: email,
       to: process.env.SMTP_USER,
-      subject: 'New Message from User: MediHub',
+      subject: 'New Message from User: Medical',
       text: message,
     };
 
